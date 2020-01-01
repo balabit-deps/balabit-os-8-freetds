@@ -1818,7 +1818,7 @@ tds5_process_result2(TDSSOCKET * tds)
 		/* label */
 		tds_dstr_get(tds, &curcol->column_name, tds_get_byte(tds));
 
-		/* TODO save informations somewhere */
+		/* TODO save information somewhere */
 		/* database */
 		colnamelen = tds_get_byte(tds);
 		tds_get_n(tds, NULL, colnamelen);

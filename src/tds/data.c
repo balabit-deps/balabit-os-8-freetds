@@ -440,7 +440,7 @@ tds_generic_get_info(TDSSOCKET *tds, TDSCOLUMN *col)
 	} else if (IS_TDS72_PLUS(tds->conn) && col->on_server.column_type == SYBMSXML) {
 		unsigned char has_schema = tds_get_byte(tds);
 		if (has_schema) {
-			/* discard schema informations */
+			/* discard schema information */
 			tds_get_string(tds, tds_get_byte(tds), NULL, 0);        /* dbname */
 			tds_get_string(tds, tds_get_byte(tds), NULL, 0);        /* schema owner */
 			tds_get_string(tds, tds_get_usmallint(tds), NULL, 0);    /* schema collection */
@@ -1428,6 +1428,7 @@ tds_clrudt_get_info(TDSSOCKET * tds, TDSCOLUMN * col)
 	tds_get_string(tds, tds_get_usmallint(tds), NULL, 0);
 
 	col->column_size = 0x7ffffffflu;
+	col->column_varint_size = 8;
 
 	return TDS_SUCCESS;
 }
@@ -1435,6 +1436,7 @@ tds_clrudt_get_info(TDSSOCKET * tds, TDSCOLUMN * col)
 TDS_INT
 tds_clrudt_row_len(TDSCOLUMN *col)
 {
+	col->column_varint_size = 8;
 	/* TODO save other fields */
 	return sizeof(TDSBLOB);
 }

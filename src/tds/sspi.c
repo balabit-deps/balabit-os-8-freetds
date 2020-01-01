@@ -213,7 +213,7 @@ tds_sspi_get_auth(TDSSOCKET * tds)
 	if (!tds_init_secdll())
 		return NULL;
 
-	/* parse username/password informations */
+	/* parse username/password information */
 	memset(&identity, 0, sizeof(identity));
 	user_name = tds_dstr_cstr(&login->user_name);
 	if ((p = strchr(user_name, '\\')) != NULL) {
