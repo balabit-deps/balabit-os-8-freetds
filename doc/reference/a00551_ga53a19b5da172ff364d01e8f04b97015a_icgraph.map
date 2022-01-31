@@ -1,0 +1,6 @@
+<map id="parse_numeric" name="parse_numeric">
+<area shape="rect" id="node2" href="$a00551.html#ga0176fafd412b5b8005bf1202fbc13b00" title="convert a number in string to TDS_INT " alt="" coords="168,5,268,32"/>
+<area shape="rect" id="node3" href="$a00551.html#gace939c1fa676d172cb0cae94848b7fac" title="convert a number in string to TDS_INT8 " alt="" coords="173,56,263,83"/>
+<area shape="rect" id="node4" href="$a00551.html#ga933f87cca76156648e91f472650b98f3" title="convert a number in string to TDS_INT8 " alt="" coords="319,31,427,57"/>
+<area shape="rect" id="node5" href="$a00551.html#gae8e173a9f8d2e3f152ada9f48d3d5f28" title="convert a number in string to TDS_UINT8 " alt="" coords="316,81,431,108"/>
+</map>

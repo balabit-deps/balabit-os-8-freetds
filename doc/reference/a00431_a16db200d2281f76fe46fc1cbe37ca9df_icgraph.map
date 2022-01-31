@@ -1,0 +1,7 @@
+<map id="tds_set_state" name="tds_set_state">
+<area shape="rect" id="node2" href="$a00554.html#gada27f4cfce925240ad33b71b63ca692d" title="Flush query packet. " alt="" coords="160,5,331,32"/>
+<area shape="rect" id="node4" href="$a00554.html#ga5f071b94ad7889690762dc85646c74ab" title="Calls a RPC from server. " alt="" coords="187,56,303,83"/>
+<area shape="rect" id="node5" href="$a00431.html#ab68dead99a2ebec55895a10cd3db5202" title="Send some data in the writetext request started by tds_writetext_start. " alt="" coords="164,107,327,133"/>
+<area shape="rect" id="node6" href="$a00431.html#ac1e460551f1188620ea478238864ac4b" title="Finish sending writetext data. " alt="" coords="178,157,313,184"/>
+<area shape="rect" id="node3" href="$a00554.html#gaf614c75ea8f7ad411e53dac0e2f91be4" title="Send RPC as string query. " alt="" coords="379,5,552,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="tds_get_uint" name="tds_get_uint">
+<area shape="rect" id="node2" href="$a00555.html#gae777dd57e8d1bb40349d7d7d8434fddf" title="Get N bytes from the buffer and return them in the already allocated space given to us..." alt="" coords="152,5,237,32"/>
+<area shape="rect" id="node3" href="$a00555.html#ga410619783bdf2bb60b0f27a5578e0e07" title="Read in one &#39;packet&#39; from the server. " alt="" coords="285,5,413,32"/>
+</map>

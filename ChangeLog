@@ -1,0 +1,55 @@
+Author: Frediano Ziglio <freddy77@gmail.com>
+Date:   Sun Apr 28 19:30:11 2019 +0100
+
+    Fix endian adjustment on PPC little endian
+
+    Code assumed PPC were always big endian.
+
+Author: rayrapetyan <robert.ayrapetyan@gmail.com>
+Date:   Tue Apr 16 20:26:57 2019 -0700
+
+    change severity for "DBPROCESS is dead or not enabled": EXINFO -> EXCOMM
+
+    "DBPROCESS is dead or not enabled" is a connectivity issue on the client
+    side, severity level should be EXCOMM at least.
+    It makes e.g.
+    https://github.com/pymssql/pymssql/blob/fda5fd38f30eaeeb40a911235692144493d69864/src/_mssql.pyx#L1168
+    to spin infinitely, never raising StopIteration (in case issue occurred in
+    the middle of fetching process).
+
+Author: Frediano Ziglio <freddy77@gmail.com>
+Date:   Fri Mar 29 09:44:34 2019 +0000
+
+    Do not install not executable files as executable
+
+    Configuration files and some documentation were installed as
+    executable using "make install".
+
+    Reported-by: Rüdiger Ihle
+
+Author: Frediano Ziglio <freddy77@gmail.com>
+Date:   Thu Mar 28 03:54:45 2019 +0000
+
+    cmake: Allow build from stable packaged version
+
+    For stable packaged version the version string was extracted from
+    configure file however the regular expression used not
+    supporting 1.x versions.
+
+Author: Alexey Basov <r313pp@gmail.com>
+Date:   Mon Mar 4 17:24:20 2019 +0300
+
+    Fix bulk insert multibyte string support in names
+
+    When column name (or table name in blob type case) has non ASCII characters length of such string was calculated incorrectly.
+    In such cases bulk insert has failed with:
+    Msg 4804, Level 17, State 1
+            While reading current row from host, a premature end-of-message was encountered--an incoming data stream was interrupted when the server expected to see more data. The host program may have terminated. Ensure that you are using a supported client application programming interface (API).
+
+Author: Frediano Ziglio <freddy77@gmail.com>
+Date:   Sun Mar 17 19:02:35 2019 +0000
+
+    ctlib: Fix cs_will_convert
+
+    Use CT-Library types, not TDS ones.
+

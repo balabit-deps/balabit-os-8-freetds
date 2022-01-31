@@ -1,0 +1,12 @@
+<map id="tds_send_emulated_rpc" name="tds_send_emulated_rpc">
+<area shape="rect" id="node2" href="$a00554.html#ga50d62edeb2a432e2dc668263f3f958ff" title="Return declaration for column (like &quot;varchar(20)&quot;). " alt="" coords="227,5,425,32"/>
+<area shape="rect" id="node3" href="$a00555.html#ga1fcaf8d488cc1390f106ce3ad0bf37b4" title="Output a string to wire automatic translate string to unicode if needed. " alt="" coords="271,56,381,83"/>
+<area shape="rect" id="node4" href="$a00554.html#ga0e2e7230c425e925402d7856ff5b4b18" title="Send a parameter to server. " alt="" coords="235,107,417,133"/>
+<area shape="rect" id="node5" href="$a00557.html#ga197c6af67f2e7469d06c2aa055917b1e" title="test if string is empty " alt="" coords="261,157,391,184"/>
+<area shape="rect" id="node6" href="$a00557.html#ga5f351a208e7aa13b4cc2d32cac8fc0fa" title="Returns a C version (NUL terminated string) of dstr. " alt="" coords="274,208,378,235"/>
+<area shape="rect" id="node7" href="$a00557.html#ga396f139e4f886ac1b224a735138e73dd" title="Returns the length of the string in bytes. " alt="" coords="276,259,376,285"/>
+<area shape="rect" id="node8" href="$a00554.html#gada27f4cfce925240ad33b71b63ca692d" title="Flush query packet. " alt="" coords="241,309,411,336"/>
+<area shape="rect" id="node9" href="$a00555.html#ga5feb53554e8917a81bbbc332163a61fb" title="Flush packet to server. " alt="" coords="473,284,601,311"/>
+<area shape="rect" id="node10" href="$a00431.html#a16db200d2281f76fe46fc1cbe37ca9df" title="Set state of TDS connection, with logging and checking. " alt="" coords="484,335,591,361"/>
+<area shape="rect" id="node11" href="$a00431.html#ab45c291105027e69836002e1dd586141" title="Write a message to the debug log. " alt="" coords="649,335,752,361"/>
+</map>

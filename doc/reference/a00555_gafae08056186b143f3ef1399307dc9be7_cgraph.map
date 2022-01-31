@@ -1,0 +1,8 @@
+<map id="tds_dstr_get" name="tds_dstr_get">
+<area shape="rect" id="node2" href="$a00557.html#ga6aa14b8b717b51afcfb65bd55143689d" title="allocate space for length char " alt="" coords="159,5,269,32"/>
+<area shape="rect" id="node3" href="$a00555.html#gae777dd57e8d1bb40349d7d7d8434fddf" title="Get N bytes from the buffer and return them in the already allocated space given to us..." alt="" coords="171,56,257,83"/>
+<area shape="rect" id="node5" href="$a00555.html#ga90f080e6e9448feac15dee1370d66802" title="Fetch a string from the wire. " alt="" coords="158,107,270,133"/>
+<area shape="rect" id="node6" href="$a00557.html#ga8fa35e3ff06ef0b7d0d642cf50282ab8" title="Returns a buffer to edit the string. " alt="" coords="165,157,263,184"/>
+<area shape="rect" id="node7" href="$a00557.html#ga0cd7863ba7c2d2da4a193234472a3d14" title="limit length of string, MUST be &lt;= current length " alt="" coords="155,208,273,235"/>
+<area shape="rect" id="node4" href="$a00555.html#ga410619783bdf2bb60b0f27a5578e0e07" title="Read in one &#39;packet&#39; from the server. " alt="" coords="321,56,449,83"/>
+</map>

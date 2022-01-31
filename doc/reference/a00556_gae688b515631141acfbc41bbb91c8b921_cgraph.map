@@ -1,0 +1,6 @@
+<map id="tds5_process_dyn_result2" name="tds5_process_dyn_result2">
+<area shape="rect" id="node2" href="$a00555.html#ga9ac121c269e203337a48c5bf8afc48c3" title="Get an int32 from the server. " alt="" coords="257,5,356,32"/>
+<area shape="rect" id="node5" href="$a00555.html#gad38aa5b9547817854ccba1fcc7855861" title="Get an int16 from the server. " alt="" coords="241,56,372,83"/>
+<area shape="rect" id="node3" href="$a00555.html#gae777dd57e8d1bb40349d7d7d8434fddf" title="Get N bytes from the buffer and return them in the already allocated space given to us..." alt="" coords="420,31,505,57"/>
+<area shape="rect" id="node4" href="$a00555.html#ga410619783bdf2bb60b0f27a5578e0e07" title="Read in one &#39;packet&#39; from the server. " alt="" coords="553,31,681,57"/>
+</map>

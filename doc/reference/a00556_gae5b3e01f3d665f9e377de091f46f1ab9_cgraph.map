@@ -1,0 +1,6 @@
+<map id="tds_process_compute_names" name="tds_process_compute_names">
+<area shape="rect" id="node2" href="$a00555.html#gad38aa5b9547817854ccba1fcc7855861" title="Get an int16 from the server. " alt="" coords="213,5,344,32"/>
+<area shape="rect" id="node5" href="$a00431.html#ab45c291105027e69836002e1dd586141" title="Write a message to the debug log. " alt="" coords="227,56,330,83"/>
+<area shape="rect" id="node3" href="$a00555.html#gae777dd57e8d1bb40349d7d7d8434fddf" title="Get N bytes from the buffer and return them in the already allocated space given to us..." alt="" coords="392,5,477,32"/>
+<area shape="rect" id="node4" href="$a00555.html#ga410619783bdf2bb60b0f27a5578e0e07" title="Read in one &#39;packet&#39; from the server. " alt="" coords="525,5,653,32"/>
+</map>
